@@ -21,8 +21,10 @@ body{
     background-color: #fff;
     padding-bottom: 20px;
 }
-
-.top>img{
+.top #hbg{
+    display: none;
+}
+.top #logo{
     width: 130px;
     height: 20px;
     padding-top: 20px;
@@ -270,3 +272,134 @@ body{
     padding-left: 20px;
 }
 
+/* media query */
+
+@media screen and (max-width: 479px){
+    .top #hbg{
+        display: inline;
+        height: 20px;
+        width: 30px;
+        float: right;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+    .top >h3{
+        display: none;
+    }
+    .top #btn1{
+        display: none;
+    }
+    .mid1{
+        background-size: 500px, 700px;
+        background-position: top -180px left 0px;
+        background-size: 450px, 500px;
+        height: 700px;
+        
+    }
+    .mid1 #title1{
+        padding-top: 350px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .mid1 #title1{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .mid1 >h4{
+        text-align: center;
+        padding-left: 0px;
+    }
+    #btn1{
+        align-items: center;
+        margin-left: 0px;
+        padding-left: 0px;
+        float:none;
+    }
+    .boxs{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid2{
+        width: auto;
+        background-color: #fff;
+    }
+    .mid2 >h2{
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .mid2 >h4{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .box1{
+        width:auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .box1 >h2{
+        color: #111;
+        font-size: 22px;
+    }
+    .box1 >h3{
+        font-size: 15px;
+        color: rgb(134, 134, 134);
+    }
+    .box2{
+        width:auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .box3{
+        width:auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .box4{
+        width:auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .mid3{
+        width:auto;
+        background-color: #fff;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        background-color: #fff;
+    }
+    .article1{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+    .article2{
+        width: auto;
+        height: auto;
+        margin-left: 120px;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .article3{
+        width: auto;
+        height: auto;
+        align-items: center;
+        margin-left: 120px;
+    }
+    .article4{
+        width: auto;
+        margin-left: 120px;
+        height: auto;
+        align-items: center;
+    }
+}
