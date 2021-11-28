@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&family=Spartan:wght@300&display=swap');
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.top>img{
+    width: 130px;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 250px;
+    cursor: pointer;
+}
+.top>h3{
+    color: grey;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 6px;
+    cursor: pointer;
+   
+}
+.top #btn1{
+    color: #fff;
+    background: linear-gradient(to right, rgb(101, 221, 101),rgb(27, 197, 140) );
+    border-radius: 30px;
+    border: none;
+    width: 170px;
+    outline:  none;
+    height: 50px;
+    font-weight: bolder;
+    float: right;
+    margin-left: 200px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.mid1{
+    height: 500px;
+    background-color: rgb(241, 241, 241);
+    background: url(images/image-mockups.png), url(images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 500px, 700px;
+    background-position: top -90px right 20px;
+}
+#title1{
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.mid1 >h4{
+    color: rgb(141, 141, 141);
+    font-size: 16px;
+    padding-left: 130px;
+    line-height: 25px;
+}
+#btn2{
+    color: #fff;
+    background: linear-gradient(to right, rgb(101, 221, 101),rgb(27, 197, 140) );
+    border-radius: 30px;
+    border: none;
+    width: 140px;
+    outline:  none;
+    height: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.mid2{
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 40px;
+}
+.mid2>h2{
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.mid2>h4{
+    color: rgb(141, 141, 141);
+    font-size: 16px;
+    padding-left: 130px;
+    line-height: 25px;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.box1{
+    width: 250px;
+    padding-right: 50px;
+    padding-left: 90px;
+}
+.box1 >h2{
+    color: #111;
+    font-size: 22px;
+}
+.box1 >h3{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+.box2{
+    width: 250px;
+    padding-right: 50px;
+}
+.box2 >h2{
+    color: #111;
+    font-size: 22px;
+}
+.box2 >h3{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+.box3{
+    width: 250px;
+    padding-right: 50px;
+}
+.box3 >h2{
+    color: #111;
+    font-size: 22px;
+}
+.box3 >h3{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+.box4{
+    width: 250px;
+    padding-right: 50px;
+}
+.box4 >h2{
+    color: #111;
+    font-size: 22px;
+}
+.box4 >h3{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+.mid3 >h1{
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.article1{
+    background-color: #fff;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 120px;
+}
+.article1 >img{
+    width: 250px;
+    height: 170px;
+}
+.article1 >h4{
+    color: grey;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.article1 >h2{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.article1 >h3{
+    color: grey;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.article2{
+    background-color: #fff;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.article2 >img{
+    width: 250px;
+    height: 170px;
+}
+.article2 >h4{
+    color: grey;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.article2 >h2{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.article2 >h3{
+    color: grey;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.article3{
+    background-color: #fff;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.article3 >img{
+    width: 250px;
+    height: 170px;
+}
+.article3 >h4{
+    color: grey;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.article3 >h2{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.article3 >h3{
+    color: grey;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.article4{
+    background-color: #fff;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.article4 >img{
+    width: 250px;
+    height: 170px;
+}
+.article4 > h4{
+    color: grey;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.article4 >h2{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.article4 >h3{
+    color: grey;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
