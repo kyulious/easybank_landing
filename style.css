@@ -275,10 +275,19 @@ body{
 /* media query */
 
 @media screen and (max-width: 479px){
+    .top #logo{
+        width: 130px;
+        height: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 0px;
+        cursor: pointer;
+    }
     .top #hbg{
         display: inline;
         height: 20px;
         width: 30px;
+        padding-left: 200px;
         float: right;
         padding-top: 15px;
         cursor: pointer;
